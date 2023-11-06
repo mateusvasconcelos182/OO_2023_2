@@ -1,0 +1,32 @@
+Importe o módulo "formas_geometricas"
+Importe a função "unidecode" do módulo "unidecode"
+
+Solicita ao usuário que informe uma forma geométrica bidimensional
+Normalizar a entrada do usuário usando a função "unidecode" e converter para letras minúsculas
+
+Se a forma geométrica for um quadrado:
+    Solicite a largura do quadrado
+    Crie um objeto "Quadrado" usando a classe "Quadrado" do módulo "formas_geometricas"
+    Imprima a área e o perímetro do objeto "Quadrado"
+
+Se a forma geométrica for um triângulo:
+    Solicite os três lados do triângulo
+    Crie um objeto "Triangulo" usando a classe "Triangulo" do módulo "formas_geometricas"
+    Imprima a área e o perímetro do objeto "Triangulo"
+
+Se a forma geométrica for um círculo:
+    Solicite o raio do círculo
+    Crie um objeto "Circulo" usando a classe "Circulo" do módulo "formas_geometricas"
+    Imprima a área e o perímetro do objeto "Circulo"
+
+Se a forma geométrica for um retângulo:
+    Solicite a base e a altura do retângulo
+    Crie um objeto "Retangulo" usando a classe "Retangulo" do módulo "formas_geometricas"
+    Imprima a área e o perímetro do objeto "Retangulo"
+
+Se a forma geométrica for um trapézio:
+    Solicite a base maior, a base menor, a altura, o lado 1 e o lado 2 do trapézio
+    Crie um objeto "Trapezio" usando a classe "Trapezio" do módulo "formas_geometricas"
+    Imprima a área do objeto "Trapezio"
+    
+    # O bloco de código correspondente ao trapézio não está imprimindo o perímetro
