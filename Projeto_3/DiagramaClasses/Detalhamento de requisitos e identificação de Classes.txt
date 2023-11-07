@@ -1,0 +1,71 @@
+Final Fantasy Tactics 
+
+
+Detalhamento de Requisitos:
+
+
+
+1 - Requisitos funcionais:
+
+    O jogo permitirá que os jogadores selecionem personagens de uma lista predefinida.
+    O jogo deverá suportar combate entre personagens jogadores e personagens não-jogadores.
+    Cada personagem deve ter atributos como saúde, poder de ataque e posição.
+    O jogo deve fornecer um mapa onde os personagens podem se mover.
+    Os personagens serão capazes de realizar ações como mover, atacar e lançar feitiços.
+    O jogo determinará o resultado das ações de combate com base nos atributos do personagem e na aleatoriedade.
+    O jogo continuará até que todos os personagens de um grupo (jogadores ou não jogadores) sejam derrotados.
+
+
+2 - Requisitos não Funcionais:
+
+    O jogo será baseado em turnos, com cada personagem atuando em sequência.
+    A interface do jogo será baseada em texto, exibindo informações no console.
+    O jogo deve garantir um jogo limpo, implementando uma geração equilibrada de números aleatórios para determinar os resultados.
+    O jogo será executado em computadores pessoais padrão sem a necessidade de hardware especializado.
+
+
+Identificação de Classe:
+
+Jogo:
+        Gerencia o estado e o fluxo geral do jogo.
+        Controla o ciclo do jogo, incluindo a sequência de combate.
+        Contém uma lista de personagens e o mapa do jogo.
+
+Personagem (classe abstrata):
+        Representa atributos e comportamentos comuns de todos os personagens, como saúde, posição e ações como movimento, ataque e lançamento de feitiço.
+
+PlayerCharacter (herda de Character):
+        Representa personagens controlados pelo jogador.
+        Comportamentos adicionais específicos dos personagens dos jogadores podem ser adicionados aqui.
+
+NonPlayerCharacter (herda de Character):
+        Representa personagens controlados pelo jogo (IA).
+        Comportamentos adicionais específicos para personagens não-jogadores podem ser incluídos.
+
+Mapa:
+        Representa o mundo do jogo, incluindo dimensões e posições dos personagens.
+        Responsável por determinar o movimento válido e o alcance das ações.
+
+CombatResolver (opcional):
+        Uma classe responsável por determinar o resultado das ações de combate.
+        Poderia usar um gerador de números aleatórios para adicionar incerteza ao combate.
+
+UIManager (opcional para uma interface baseada em texto):
+        Responsável por todas as interações da interface do usuário.
+        Exibe o estado do jogo e aceita a entrada do usuário.
+
+Gerador de números aleatórios:
+        Encapsula a lógica para gerar números aleatórios.
+        Garante que a aleatoriedade utilizada no jogo seja justa e equilibrada.
+
+
+
+
+
+
+
+
+
+
+
+

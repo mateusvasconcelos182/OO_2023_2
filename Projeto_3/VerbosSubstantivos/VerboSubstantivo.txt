@@ -1,0 +1,44 @@
+Substantivos (Classes):
+
+    Game
+    Player
+    Character
+    PlayerCharacter
+    NonPlayerCharacter
+    Map
+    Spell
+    Attack
+    Position
+    Health
+
+Verbos (Methods/Operations):
+
+    Choose (Characters)
+    Add (Random Enemies)
+    Start (Game)
+    Combat (Loop)
+    Move (Character)
+    Attack (Character)
+    Cast (Spell)
+    Display (Health)
+    Determine (Outcome)
+    Is (Alive)
+
+Associação Verbos-Substantivos:
+
+    Game - Start, Combat
+    Player - Choose, Move, Attack, Cast
+    Character - Introduce, Move, Attack, Cast, Is Alive
+    Map - Display
+    Spell - Cast
+    Attack - Determine Outcome
+    Health - Display, Is Alive
+
+
+
+
+
+
+
+
+
